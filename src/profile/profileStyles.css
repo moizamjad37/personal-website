@@ -1,0 +1,177 @@
+/* Profile Section Main Container */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+    padding-top: 3vh;
+}
+
+/* Profile picture and container */
+.pic-container {
+    height: 35%;
+    width: 35%;
+}
+.profile-pic {
+    height: 100%;
+    width: 100%;
+}
+
+/* Text + buttons + icons section */
+/* Main container of section */
+.mobView-text-container {
+    display: none;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;    
+    height: 40%;
+    width: 40%;
+}
+
+/* Texts */
+.text1 {
+    font-size: 1.2rem;
+    width: 100%;
+}
+.my-name {
+    font-size: 2.5rem;
+    width: 100%;
+}
+.title {
+    font-size: 1.75rem;
+    width: 100%;
+}
+
+/* Buttons and their contaioner */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-cv, .btn-contact {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-cv, .btn-contact:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-cv {
+    background: black;
+}.btn-cv:hover {
+    cursor: pointer;
+    background: rgb(53, 53, 53);
+    border: rgb(255, 255, 255) 0.2rem solid;
+}
+
+.btn-contact {
+    background: none;
+}.btn-contact:hover {
+    cursor: pointer;
+    border: rgb(255, 255, 255) 0.2rem solid;
+}
+
+/* Icons and their container */
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.icon {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {    
+    /* Texts */
+    .text-container {
+        gap: 1.5vh;
+    }
+    .text1 {
+        padding-top: 4vh;
+        font-size: 1.5vw;
+    }
+    .my-name {
+        font-size: 3.2vw;
+    }
+    .title {
+        font-size: 2.8vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .profile-section {
+        flex-direction: column;
+    }
+    /* profie picture section */
+    .pic-container {
+        height: 60%;
+        width: 60%;
+    }
+    
+    /* Texts */
+    .text-container {
+        max-height: 20vh;
+    }
+    .mobView-text-container {
+        display: contents;
+        display: flex;
+        flex-direction: column;
+        height: 18vh;
+        width: 55vh;
+        gap: 1.5vh;
+    }
+    .text1-2 {
+        font-size: 5.5mm;
+    }
+    .my-name-2 {
+        font-size: 9.1mm;
+    }
+    .title-2 {
+        font-size: 8.25mm;
+    }
+    .text-container {
+        height: 50vh;
+        width: 55vh;
+        gap: 2vh;
+    }
+    .text1, .my-name, .title {
+        display: none;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .profile-section {
+        padding: 0;
+        width: 99vw;
+    }
+    .pic-container {
+        height: 75%;
+        width: 75%;
+    }
+    .mobView-text-container {    
+        height: 16vh;
+        width: 55vh;
+        gap: 1vh;
+    }
+}
+
