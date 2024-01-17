@@ -135,7 +135,7 @@
         display: contents;
         display: flex;
         flex-direction: column;
-        height: 18vh;
+        height: 25vh;
         width: 55vh;
         gap: 1.5vh;
     }
@@ -160,6 +160,7 @@
 
 
 @media (max-width: 550px) {
+    /* Profile Section */
     .profile-section {
         padding: 0;
         width: 99vw;
@@ -169,7 +170,7 @@
         width: 75%;
     }
     .mobView-text-container {    
-        height: 16vh;
+        height: 20vh;
         width: 55vh;
         gap: 1vh;
     }
