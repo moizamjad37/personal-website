@@ -1,5 +1,6 @@
 import Navbar from './navigationBar/navbar';
 import Profile from './profile/profile';
+import About from './about/about'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Profile />
+      <About />
     </>
   )
 }

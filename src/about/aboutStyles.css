@@ -1,0 +1,18 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    padding-top: 3vh;
+}
+.aboutPic-container {
+    height: 45vh;
+    width: 45vh;
+}
+.about-pic {
+    height: 100%;
+    width: 100%;
+}
