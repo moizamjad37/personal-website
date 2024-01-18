@@ -94,6 +94,9 @@
 }
 .icon {
     cursor: pointer;
+    height: 2.1rem;
+    width: 2.1rem;
+}.icon:hover {
     height: 2rem;
     width: 2rem;
 }
