@@ -6,8 +6,11 @@ export default function about() {
       <p>Get To Know More</p>
       <h1>About Me</h1>
       <div className="aboutPic-container">
-            <img src={aboutPic} className="about-pic" alt="Moiz Amjad profile picture"/>
-        </div> 
+          <img src={aboutPic} className="about-pic" alt="Moiz Amjad profile picture"/>
+          <div className='experience-section'>
+          </div>
+      </div>
+
     </div>
   )
 }

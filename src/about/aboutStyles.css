@@ -6,11 +6,11 @@
     height: 100%;
     width: 100%;
     gap: 1rem;
-    padding-top: 3vh;
+    padding-top: 5vh;
 }
 .aboutPic-container {
-    height: 45vh;
-    width: 45vh;
+    height: 35vw;
+    width: 35vw;
 }
 .about-pic {
     height: 100%;

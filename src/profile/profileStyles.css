@@ -126,8 +126,8 @@
     }
     /* profie picture section */
     .pic-container {
-        height: 60%;
-        width: 60%;
+        height: 50%;
+        width: 50%;
     }
     
     /* Texts */
@@ -138,7 +138,7 @@
         display: contents;
         display: flex;
         flex-direction: column;
-        height: 25vh;
+        height: auto;
         width: 55vh;
         gap: 1.5vh;
     }
@@ -169,13 +169,22 @@
         width: 99vw;
     }
     .pic-container {
-        height: 75%;
-        width: 75%;
+        height: 60%;
+        width: 60%;
     }
     .mobView-text-container {    
-        height: 20vh;
+        height: auto;
         width: 55vh;
         gap: 1vh;
+    }
+    .text1-2 {
+        font-size: 1.2rem;
+    }
+    .my-name-2 {
+        font-size: 2.1rem;
+    }
+    .title-2 {
+        font-size: 1.8rem;
     }
 }
 
