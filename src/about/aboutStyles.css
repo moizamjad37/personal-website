@@ -3,16 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     gap: 1rem;
-    padding-top: 5vh;
+    padding-top: 6vh;
 }
 .aboutPic-container {
-    height: 35vw;
-    width: 35vw;
+    height: 25vw;
+    width: 25vw;
 }
 .about-pic {
     height: 100%;
     width: 100%;
+}
+@media (max-width: 800px) {
+    .aboutPic-container {
+        height: 35vw;
+        width: 35vw;
+    }
+    .about-container {
+        padding-top: 1.5cm;
+    }
+}
+@media (max-width: 550px) {
+    .aboutPic-container {
+        height: 40%;
+        width: 40%;
+    }
+}
+@media (max-width: 400px) {
+    .aboutPic-container {
+        height: 50%;
+        width: 50%;
+    }
 }
