@@ -16,6 +16,17 @@
     height: 100%;
     width: 100%;
 }
+
+/* Text */
+.about-container p {
+    font-size: 1.2rem;
+}
+.about-container h1 {
+    font-size: 2.5rem;
+}
+
+
+/* Media Queries */
 @media (max-width: 800px) {
     .aboutPic-container {
         height: 35vw;

@@ -1,3 +1,4 @@
+import logo from '../assets/Moiz-Logo.png';
 
 export default function navbar() {
   
@@ -11,7 +12,7 @@ export default function navbar() {
   return (
     <div className="nav-container">
         
-        <div className="logo"> Moiz Amjad </div>
+        <div className="logo-container"> <img src={logo} className="logo" alt="Logo"/> </div>
 
         <div> 
           <ul className="nav-links">
