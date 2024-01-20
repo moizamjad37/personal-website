@@ -123,6 +123,7 @@
 @media (max-width: 800px) {
     .profile-section {
         flex-direction: column;
+        padding-top: 1cm;
     }
     /* profie picture section */
     .pic-container {
@@ -161,11 +162,10 @@
     }
 }
 
-
 @media (max-width: 550px) {
     /* Profile Section */
     .profile-section {
-        padding: 0;
+        padding-top: 1cm;
         width: 99vw;
     }
     .pic-container {

@@ -6,7 +6,7 @@
     height: auto;
     width: auto;
     gap: 1rem;
-    padding-top: 6vh;
+    padding-top: 10vh;
 }
 .experience-container2 {
     display: flex;
@@ -15,6 +15,7 @@
     gap: 1cm;
     padding-left: 3cm;
     padding-right: 3cm;
+    padding-top: 0.8rem;
 }
 
 /* Text */
@@ -68,13 +69,13 @@ article .icon2 {
 @media (max-width: 1200px) {
     .experience-container2 {
         gap: 1cm;
-        padding-left: 1cm;
-        padding-right: 1cm;
+        padding-left: 1.5cm;
+        padding-right: 1.5cm;
     }
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 550px) {
     .experience-container2 {
         flex-direction: column;
     }
