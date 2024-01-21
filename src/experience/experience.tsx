@@ -6,7 +6,7 @@ import checkmarkBlueGreen from "../assets/checkmark-bluegreen.png";
 export default function experience() {
   return (
     <div className="experience-container">
-        <p>Explore My</p>
+        <p id="experience">Explore My</p>
         <h1>Experience</h1>
         <div className="experience-container2">
             

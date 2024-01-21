@@ -4,7 +4,7 @@ import splitwisePic from '../assets/splitwise-logo.png';
 export default function projects() {
   return (
     <div className="projects-container">
-        <p>Browse My Recent</p>
+        <p id="projects">Browse My Recent</p>
         <h1>Projects</h1>
         <div className="projects-container2">
           

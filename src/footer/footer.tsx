@@ -8,7 +8,7 @@ export default function footer() {
             <li><a href="#projects"> Projects </a></li>
             <li><a href="#contact"> Contact </a></li>
         </ul>
-        <p className="copyright-text">Copyright &#169; 2023 Moiz Amjad. All Rights Reserved.</p> 
+        <p className="copyright-text" id="contact">Copyright &#169; 2023 Moiz Amjad. All Rights Reserved.</p> 
     </div>
   )
 }

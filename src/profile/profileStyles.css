@@ -8,6 +8,7 @@
     height: 100%;
     width: 100%;
     padding-top: 3vh;
+    padding-bottom: 6vh;
 }
 
 /* Profile picture and container */
@@ -124,6 +125,7 @@
     .profile-section {
         flex-direction: column;
         padding-top: 1cm;
+        padding-bottom: 1.5cm;
     }
     /* profie picture section */
     .pic-container {
