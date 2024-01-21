@@ -21,7 +21,7 @@ export default function projects() {
                 Github
               </button>
               <button className="project-button"
-                onClick={() => location.href = "https://amazing-puffpuff-1285ce.netlify.app/"}
+                onClick={() => location.href = "https://burgerbuilder2023.netlify.app/"}
               > 
                 Live Demo 
               </button>
@@ -41,7 +41,7 @@ export default function projects() {
                 Github
               </button>
               <button className="project-button"
-                onClick={() => location.href = "https://tranquil-rabanadas-4ddc6d.netlify.app/"}
+                onClick={() => location.href = "https://splitwiseapp2023.netlify.app/"}
               > 
                 Live Demo 
               </button>
