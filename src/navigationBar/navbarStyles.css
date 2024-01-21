@@ -41,7 +41,7 @@
 
 @keyframes glow{
   from{text-shadow:0px 0px 0px #fff,0px 0px 0px #ffffff;}
-  to{text-shadow:0px 0px 5px #ffffff,0px 0px 5px #aaaaaa;}
+  to{text-shadow:0px 0px 5px #ffffff,0px 0px 10px #bebebe;}
 }
 
 /* Mobile Navbar Container*/
