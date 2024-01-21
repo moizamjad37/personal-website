@@ -6,6 +6,7 @@ import './navigationBar/navbarStyles.css'
 import './profile/profileStyles.css'
 import './about/aboutStyles.css'
 import './experience/experienceStyles.css'
+import './projects/projectStyles.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
