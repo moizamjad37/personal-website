@@ -11,6 +11,7 @@
 .aboutPic-container {
     height: 25vw;
     width: 25vw;
+    margin-bottom: 1cm;
 }
 .about-pic {
     height: 100%;
@@ -18,11 +19,15 @@
 }
 
 /* Text */
-.about-container p {
+.about-container #about {
     font-size: 1.2rem;
 }
 .about-container h1 {
     font-size: 2.5rem;
+}
+.description-text {
+    font-size: 1.2rem;
+    width: 80%;
 }
 
 
@@ -38,6 +43,10 @@
     .aboutPic-container {
         height: 40%;
         width: 40%;
+        margin-bottom: 0.75cm
+    }
+    .description-text {
+        font-size: 1rem;
     }
 }
 
@@ -45,5 +54,10 @@
     .aboutPic-container {
         height: 50%;
         width: 50%;
+        margin-bottom: 0.5cm
+    }
+
+    .description-text {
+        font-size: 0.75rem;
     }
 }
