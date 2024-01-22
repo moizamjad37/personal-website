@@ -11,6 +11,9 @@ a, .btn {
 
 p {
     color: rgb(85, 85, 85);
-    width: auto;
-    height: auto;
+}
+
+#about, #experience, #projects, #contact {
+    width: 100vw;
+    text-align: center;
 }
