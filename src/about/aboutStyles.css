@@ -9,6 +9,7 @@
     padding-bottom: 10vh;
 }
 .aboutPic-container {
+    display: none;
     height: 25vw;
     width: 25vw;
     margin-bottom: 1cm;
@@ -24,6 +25,7 @@
 }
 .about-container h1 {
     font-size: 2.5rem;
+    margin-bottom: 0.7cm;
 }
 .description-text {
     font-size: 1.2rem;
