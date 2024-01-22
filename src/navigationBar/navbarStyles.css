@@ -1,7 +1,7 @@
 /* Main continer for Logo + Navbar + mobile Navbar */
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 99.5%;
     height: 100px;

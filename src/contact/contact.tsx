@@ -4,7 +4,7 @@ import linkedInIcon from '../assets/linkedin.png';
 export default function contact() {
   return (
     <div className="contact-container">
-        <p>Get in Touch</p>
+        <p id="contact">Get in Touch</p>
         <h1>Contact Me</h1>
         <div className="contactInfo-container"> 
             
