@@ -11,4 +11,6 @@ a, .btn {
 
 p {
     color: rgb(85, 85, 85);
+    width: auto;
+    height: auto;
 }
