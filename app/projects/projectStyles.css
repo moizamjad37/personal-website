@@ -1,0 +1,125 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 1rem;
+    padding-bottom: 12vh;
+}
+.projects-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 70%;
+    gap: 3cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.8rem;
+}
+
+/* Text */
+.projects-container p {
+    font-size: 1.2rem;
+}
+.projects-container h1 {
+    font-size: 2.5rem;
+}
+
+.burgerBuilder-container, .splitwise-container {
+    padding: 2rem;
+    flex: 1;
+    background: rgb(250, 250, 250);
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-top-color: rgb(53, 53, 53);
+    border-right-color: rgb(53, 53, 53);
+    border-bottom-color: rgb(53, 53, 53);
+    border-left-color: rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+.burgerBuilder-container h2 {
+    color: #442912;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.2rem;
+}
+.splitwise-container h2 {
+    color: #125647;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.burgerBuilder-imageContainer, .splitwise-imageContainer {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+    border: 1px solid #d2902d;
+    border-radius: 15%;
+}
+.splitwise-imageContainer {
+    border: 1px solid #1CC29F ;
+}
+
+.burgerBuilder-image, .splitwise-image {
+    border-radius: 2rem;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    height: 80%;
+    width: 80%;
+}
+
+
+/* Buttons and their contaioner */
+.button-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 1rem;
+}
+.project-button {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 7rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    background: none;
+}
+.project-button:hover {
+    cursor: pointer;
+    background: rgb(53, 53, 53);
+    color: white;
+    cursor: pointer;
+    border: rgb(255, 255, 255) 0.2rem solid;
+}
+
+@media (max-width: 1200px) {
+    .projects-container2 {
+        width: 80%;
+        gap: 1cm;
+    }
+}
+
+@media (max-width: 750px) {
+    .projects-container2 {
+        flex-direction: column;
+        width: 350px;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects-container2 {
+        flex-direction: column;
+        width: 75%;
+    }
+}
