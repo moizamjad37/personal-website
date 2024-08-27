@@ -240,8 +240,8 @@ figure {
     typing 2s steps(20),
     cursor .4s step-end infinite alternate;
   animation-delay: 2.5s;
-  
 }
+
 /* The typewriter cursor effect */
 @keyframes cursor {
   50%  {border-color: transparent;}
@@ -449,6 +449,22 @@ figure {
 #fh5co-about .fh5co-social-icons li a:hover {
   background: rgba(46, 0, 130, 0.9);
 }
+
+/* Typing Animation for About me Section*/
+/* .col-md-8 {
+  display: inline-block;
+}
+
+.typing-animation-text2 {
+  border-right: 5px solid rgb(0, 0, 0);
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 2s steps(631),
+    cursor .4s step-end infinite alternate;
+  animation-delay: 3s;
+} */
 
 .fh5co-heading {
   margin-bottom: 3em;
